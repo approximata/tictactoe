@@ -1,0 +1,46 @@
+body {
+  background-color: #D3D3D3;
+  margin: 0px auto;
+  width: 600px;
+}
+
+#container {
+    margin: 0px auto;
+    min-width: 600px;
+}
+
+#game, #game * {
+    box-sizing: content-box;
+}
+
+#game {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    float: left;
+    outline: 1px solid #b4b4b4;
+}
+
+#game .tile {
+    background-color: #293B58;
+    width: 100px;
+    height: 100px;
+    outline: 1px solid #b4b4b4;
+    float: left;
+    line-height: 88px;
+    text-align: center;
+    font-size: 50px;
+    color: #BD7C50;
+}
+
+#menu {
+    height: 300px;
+    width: 190px;
+    padding-left: 35px;
+    float: left;
+}
+
+.hidden {
+    display: none;
+}
